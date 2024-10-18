@@ -3,8 +3,6 @@ import 'dart:io';
 void main() {
   String? input = stdin.readLineSync();
 
-  // Nucleotide nucleotide = Nucleotide(input);
-  // nucleotide.getNucleotideCount();
 
   getNucleotideCount(input);
 }
